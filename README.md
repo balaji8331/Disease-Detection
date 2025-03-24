@@ -52,7 +52,7 @@ streamlit run app.py
 ---
 
 Project Structure
---- PlainText
+--- 
 /health-vision
 ├── /models
 │   ├── all-in-one.h5

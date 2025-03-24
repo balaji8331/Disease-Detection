@@ -45,6 +45,7 @@ Upload Medical Images: Upload images in .jpg, .png, or .jpeg format.
 View Predictions: Get possible disease predictions along with precautionary advice.
 
 📂 Project Structure
+
 /health-vision
 ├── /models
 │   ├── all-in-one.h5

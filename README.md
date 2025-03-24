@@ -1,69 +1,50 @@
-🩺 Health Vision – AI-Powered Medical Diagnosis
-📚 Project Overview
-Health Vision is an AI-powered web application developed using Streamlit that analyzes medical images and predicts possible diseases. It covers a wide range of medical conditions such as brain tumors, pneumonia, bone fractures, skin infections, kidney stones, and eye infections. The application processes uploaded images and uses pre-trained CNN models to classify them and suggest appropriate precautions.
+# 🩺 Health Vision – AI-Powered Medical Diagnosis
 
-🎯 Key Features
-✅ Disease Detection:
-Detects diseases from various medical categories such as brain, chest, bones, skin, kidneys, and eyes.
-Provides classification results with high accuracy using deep learning models.
-Frontend: Streamlit
-Backend: Python (TensorFlow, OpenCV, NumPy)
-Machine Learning Models: CNN models trained for different medical conditions
+## 📚 Project Overview
+**Health Vision** is an AI-powered **web application** built with **Streamlit** that analyzes medical images and predicts possible diseases. It identifies conditions related to the brain, chest, bones, skin, kidneys, and eyes. By leveraging deep learning models, the application offers accurate predictions and precautionary suggestions.
 
-🧠 Model Details
-The application utilizes several pre-trained CNN models for different categories:
-All-in-One Model: Determines the category of the uploaded image.
-Bone Model: Detects fractures and provides suggestions.
-Brain Model: Identifies tumors such as glioma, meningioma, pituitary, or no tumor.
-Chest Model: Detects pneumonia or normal condition.
-Eye Model: Recognizes glaucoma, diabetic retinopathy, cataract, and normal conditions.
-Kidney Model: Detects cysts, tumors, stones, or normal conditions.
-Skin Model: Identifies various skin conditions such as melanoma, keratosis, and carcinoma.
+---
 
-🚀 Installation and Setup
-Step 1: Clone the Repository
+## 🎯 Key Features
+✅ **Disease Classification:**
+- Detects diseases from various medical categories such as:
+    - Brain tumors (Glioma, Meningioma, Pituitary, No Tumor)
+    - Pneumonia detection from chest X-rays
+    - Bone fractures detection
+    - Skin disease classification
+    - Kidney stone detection
+    - Eye infections analysis
+
+✅ **Precautionary Advice:**
+- Provides suggestions and precautions based on the detected condition.
+
+✅ **User-Friendly Interface:**
+- Built with **Streamlit** for an intuitive, simple, and responsive interface.
+- Allows easy image uploads and instant predictions.
+
+---
+
+## ⚙️ Technology Stack
+- **Frontend:** Streamlit  
+- **Backend:** Python (TensorFlow, OpenCV, NumPy)  
+- **Machine Learning Models:** CNN models trained for:
+    - Brain MRI classification
+    - Chest X-ray classification
+    - Bone fracture classification
+    - Skin disease classification
+    - Kidney and eye analysis
+
+---
+
+## 🛠️ Installation Guide
+1. **Clone the repository:**
 git clone https://github.com/your-username/health-vision.git
 cd health-vision
-Step 2: Install Dependencies
+2.  Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate  # For Windows
+3.  Install dependencies
 pip install -r requirements.txt
-Step 3: Run the Application
+4.  Run the application
 streamlit run app.py
-
-📸 Usage Instructions
-Launch the Application: Run app.py using Streamlit.
-Upload Medical Images: Upload images in .jpg, .png, or .jpeg format.
-View Predictions: Get possible disease predictions along with precautionary advice.
-
-📂 Project Structure
-/health-vision
-├── /models
-│   ├── all-in-one.h5
-│   ├── brain.h5
-│   ├── bone.h5
-│   ├── chest.h5
-│   ├── eye.h5
-│   ├── kidney.h5
-│   └── skin.h5
-├── /assets
-│   └── logo.png
-├── /templates
-│   └── index.html
-├── app.py
-├── model.py
-├── requirements.txt
-└── README.md
-
-📦 Dependencies
-1.streamlit
-2.tensorflow
-3.opencv-python
-4.numpy
-5.pillow
-Install all dependencies using:
-pip install -r requirements.txt
-
-📧 Contact
-For any queries or feedback, feel free to reach out to:
-📩 Email: arigalabalaji@example.com
-🔗 LinkedIn: Arigala Balaji
-

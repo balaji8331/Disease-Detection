@@ -40,11 +40,28 @@
 1. **Clone the repository:**
 git clone https://github.com/your-username/health-vision.git
 cd health-vision
-2.  Create a virtual environment
+2.  Create a virtual environment:
 python -m venv venv
 source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate  # For Windows
-3.  Install dependencies
+3.  Install dependencies:
 pip install -r requirements.txt
-4.  Run the application
+4.  Run the application:
 streamlit run app.py
+Project Structure
+
+/health-vision
+├── /models
+│   ├── all-in-one.h5
+│   ├── brain.h5
+│   ├── chest.h5
+│   ├── fracture.h5
+│   ├── eye.h5
+│   ├── kidney.h5
+│   └── skin.h5
+├── /assets
+│   └── sample_images/
+├── app.py
+├── classify.py
+├── requirements.txt
+└── README.md

@@ -48,7 +48,10 @@ venv\Scripts\activate  # For Windows
 pip install -r requirements.txt
 4.  Run the application:
 streamlit run app.py
-Project Structure
+
+---
+
+##Project Structure
 
 /health-vision
 ├── /models
